@@ -137,7 +137,7 @@ export default function Home() {
               </div>
             )}
 
-            <div className="mt-4 flex flex-wrap items-center gap-3">
+            <div className="mt-4 flex flex-wrap items-center  gap-3">
               <button
                 onClick={generate}
                 disabled={loading || (mode === "prompt" ? prompt.trim().length < 3 : url.trim().length < 8)}
