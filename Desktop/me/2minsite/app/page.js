@@ -129,7 +129,7 @@ export default function Home() {
             ) : (
               <div className="flex flex-col gap-3">
                 <input
-                  className="w-full rounded-lg border border-black/10 dark:border-white/15 bg-transparent p-3"
+                  className="w-full rounded-lg border  border-black/10 dark:border-white/15 bg-transparent p-3"
                   placeholder="https://example.com"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
