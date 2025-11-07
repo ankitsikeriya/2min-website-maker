@@ -30,7 +30,7 @@ export default function Home() {
     if (!result) return "";
     return buildSrcDoc(result.html, result.css, result.js);
   }, [result]);
-
+ 
   const previewWrapRef = useRef(null);
 
   async function generate() {
