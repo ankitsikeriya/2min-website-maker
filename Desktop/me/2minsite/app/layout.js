@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "2 min site",
-  description: "Generate a full static website (HTML/CSS/JS) from a prompt or URL in minutes.",
+  description: "Generate a full static website (HTML/CSS/JS) from a prompt or URL in minutes." ,
 };
 
 export default function RootLayout({ children }) {
