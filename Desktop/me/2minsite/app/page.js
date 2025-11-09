@@ -19,7 +19,7 @@ function base64ToBlob(base64, contentType = "application/zip") {
 }
 
 export default function Home() {
-  const [mode, setMode] = useState("prompt");
+  const [mode, setMode] = useState("prompt") ;
   const [prompt, setPrompt] = useState("");
   const [url, setUrl] = useState("");
   const [result, setResult] = useState(null);
