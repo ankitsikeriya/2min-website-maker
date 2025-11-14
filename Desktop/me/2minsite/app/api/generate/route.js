@@ -19,7 +19,7 @@ async function getGoogleAI() {
   try {
     const mod = await import("@google/generative-ai");
     GoogleAI = mod.GoogleGenerativeAI;
-    return GoogleAI;
+    return GoogleAI; 
   } catch (e) {
     return null;
   }
