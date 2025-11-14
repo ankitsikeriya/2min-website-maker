@@ -5,7 +5,7 @@ let JSZipModule = null;
 async function getJSZip() {
   if (JSZipModule) return JSZipModule;
   try {
-    JSZipModule = (await import("jszip")).default;
+    JSZipModule = (await import("jszip")).default; 
     return JSZipModule;
   } catch (e) {
     return null;
