@@ -10,7 +10,7 @@ function buildSrcDoc(html, css, js) {
 }
 
 function base64ToBlob(base64, contentType = "application/zip") {
-  if (!base64) return null;
+  if (!base64) return null; 
   const byteChars = atob(base64); 
   const byteNumbers = new Array(byteChars.length);
   for (let i = 0; i < byteChars.length; i++) byteNumbers[i] = byteChars.charCodeAt(i);
