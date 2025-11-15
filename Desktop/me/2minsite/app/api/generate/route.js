@@ -79,7 +79,7 @@ function extractBody(htmlText) {
   const match = /<body[\s\S]*?>([\s\S]*?)<\/body>/i.exec(htmlText);
   return match ? match[1] : htmlText;
 }
-
+ 
 async function buildFromUrl(url) {
   const u = String(url || "").trim();
   if (!/^https?:\/\//i.test(u)) throw new Error("Invalid URL. Must start with http/https");
