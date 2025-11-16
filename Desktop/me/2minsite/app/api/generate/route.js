@@ -7,7 +7,7 @@ async function getJSZip() {
   try {
     JSZipModule = (await import("jszip")).default; 
     return JSZipModule; 
-  } catch (e) {
+  } catch (e) { 
     return null;
   }
 }
