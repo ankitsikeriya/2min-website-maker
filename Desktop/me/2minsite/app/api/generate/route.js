@@ -44,7 +44,7 @@ function buildFromPrompt(prompt) {
     <main class=\"container\">
       <section class=\"card\">
         <h2>About</h2>
-        <p>${safePrompt || "A fast starter site generated from your prompt."}</p>
+        <p>${safePrompt ||  "A fast starter site generated from your prompt."}</p>
       </section>
       <section class=\"grid\">
         <div class=\"card\"><h3>Feature One</h3><p>Clean, responsive layout.</p></div>
