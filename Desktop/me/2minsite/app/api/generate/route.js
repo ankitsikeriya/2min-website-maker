@@ -9,7 +9,7 @@ async function getJSZip() {
     return JSZipModule; 
   } catch (e) { 
     return null;
-  }
+  } 
 }
 
 // Lazy import Gemini SDK
