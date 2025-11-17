@@ -129,8 +129,8 @@ function parseBlocks(text) {
     const lang = m[1].toLowerCase();
     out[lang] = m[2].trim();
   }
-  return out;
-}
+  return out; 
+} 
 
 async function buildWithGemini(prompt) {
   const apiKey = process.env.GOOGLE_API_KEY;
