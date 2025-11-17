@@ -72,7 +72,7 @@ p{opacity:.9}
   console.log('2 min site loaded');
 });`;
 
-  return { html, css, js };
+  return { html, css, js }; 
 }
 
 function extractBody(htmlText) {
