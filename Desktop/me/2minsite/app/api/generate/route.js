@@ -10,7 +10,7 @@ async function getJSZip() {
   } catch (e) { 
     return null;
   } 
-}
+} 
 
 // Lazy import Gemini SDK
 let GoogleAI = null;
