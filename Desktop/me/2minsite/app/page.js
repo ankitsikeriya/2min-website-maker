@@ -3,7 +3,7 @@
 import { useMemo, useRef, useState } from "react"; 
 
 function buildSrcDoc(html, css, js) { 
-  const safeHtml = String(html || "");
+  const safeHtml = String(html || ""); 
   const safeCss = String(css || "");
   const safeJs = String(js || "");
   return `<!doctype html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><style>${safeCss}</style></head><body>${safeHtml}<script>${safeJs}<\/script></body></html>`;
