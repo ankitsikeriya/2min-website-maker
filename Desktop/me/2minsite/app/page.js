@@ -8,7 +8,7 @@ function buildSrcDoc(html, css, js) {
   const safeJs = String(js || "");
   return `<!doctype html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><style>${safeCss}</style></head><body>${safeHtml}<script>${safeJs}<\/script></body></html>`;
 } 
-
+ 
 function base64ToBlob(base64, contentType = "application/zip") {
   if (!base64) return null; 
   const byteChars = atob(base64); 
