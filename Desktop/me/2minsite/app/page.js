@@ -25,7 +25,7 @@ export default function Home() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
+ 
   const srcDoc = useMemo(() => {
     if (!result) return "";
     return buildSrcDoc(result.html, result.css, result.js);
